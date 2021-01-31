@@ -55,6 +55,22 @@ a  {
     color:#4a4a4a
    
 }
+.hero {
+  padding: 20px 0 0;
+  display: inline-block;
+  width: 100%;
+}
+.hero h3 {
+  text-align: center;
+}
+#about h2  {
+  margin-bottom: 0;
+}
+.headshot  {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
 
 a:visited {
     /* visited link */
@@ -79,14 +95,19 @@ a:focus  {
     color: #386cfc;
 }
 
-.button {
+a.button {
     display: inline-block;
 background-color: transparent;
 transition: 0.3s opacity;
 color:  #1b1b1b;
+/*width of the border, type, color */
+margin: auto;
+padding: 10px 30px 10px 30px;
+transition: .8s opacity;
+box-shadow: 0 5px 10px 0 rgba(48, 50, 50, 0.43);
 font-weight: 400;
 border-radius: 3px;
-border-bottom: 2px solid lightgrey; /*width of the border, type, color */
+border-bottom: 2px solid lightgrey; 
 
 }
   .button:visited {
@@ -102,6 +123,8 @@ border-bottom: 2px solid lightgrey; /*width of the border, type, color */
     }
 .button:active 
  {
+   opacity: .8;
+   text-decoration: none;
     color: #1b1b1b;
 }
 .button.contact {
@@ -111,8 +134,23 @@ font-family: Playfair Display,serif;
 text-transform: uppercase;
 width: 120px;
 transition: 1s;
-padding: 10px;
+padding: 10px 30px 10px 30px;
 font-weight: 400;
 text-align: center;
 float: none;
 }
+a.button.contact:hover  {
+ background-color: #c5c5c5;
+ color: #252525
+ text-decoration-thickness- 1s;
+ opacity: 0.8;
+}
+
+.button:hover {
+  background-color: #2b2b2b;
+text-decoration: none;
+opacity: 0.8;
+}
+/* Layout Styling */
+
+  
